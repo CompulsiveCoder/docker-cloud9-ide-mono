@@ -1,0 +1,11 @@
+ide:
+  build: .
+  environment:
+    - C9_WORKSPACE=/cloud9/workspace
+    - ROOT_PASS=ywgtpJ8c9r!
+  volumes:
+    - /home/j/cloud:/cloud9/workspace
+  ports:
+    - 8181:8181
+    - 8085:8085
+    - 22
